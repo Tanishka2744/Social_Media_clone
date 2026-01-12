@@ -1,0 +1,92 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background:white;
+}
+
+.card{
+    width: 470px;
+    padding: 40px 30px;
+    border:1px solid #dbdbdb;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.top select{
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 43%;
+    border:none;
+    background: none;
+   font-size: 14px;
+}
+
+.middle h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.middle input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.middle button{
+    width: 40%;
+    padding: 10px;
+    margin-top: 15px;
+    background:var(--primary-clr);
+    border: none;
+    border-radius: 5px;
+    color: var(--card-clr);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.middle button:hover{
+    background: #0077c2;
+}
+
+.middle h3{
+    font-style: 12px;
+    margin-top: 15px;
+    color: rgb(183, 182, 182);
+    cursor:pointer;
+}
+
+.middle strong{
+    color:rgb(113, 113, 113);
+}
+
+.bottom{
+    margin-top: 20px;
+    padding: 15px;
+    font-style: 14px;
+}
+
+.bottom h3{
+    color: gray;
+}
+
+.bottom span{
+    color:blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+ .card{
+    width: 90%;
+    flex-direction: column;
+ }
+}

@@ -1,0 +1,66 @@
+.chat-box{
+    background: var(--card-clr);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: .5rem;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.chat-box-top{
+    width: 88%;
+    margin: 0px auto;
+    border-bottom: 1px solid var(--bg-clr);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem 0;
+}
+
+.chat-box img{
+    width: 120px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-top: .5rem;
+    border: 3px solid var(--primary-clr);
+}
+
+.chat-box-bottom{
+    background: var(--bg-clr);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 0.8rem;
+    border-radius: .5rem;
+}
+
+.chat-box-bottom form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-box-bottom input{
+    width: 100%;
+    background: transparent;
+    color: var(--primary-clr);
+    font-size: 1rem;
+}
+
+.chat-box-bottom label input{
+    display: none;
+}
+
+@media(max-width:600px){
+    .chat-box-top{
+        width: 90%;
+    }
+
+    .chat-box-bottom{
+        width: 90%;
+    }
+}
